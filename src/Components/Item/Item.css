@@ -1,9 +1,9 @@
 .item{
-    width: 300px;
+    width: 280px;
     background: #dfdcdc;
     border-radius: 10px;
     transition: 1s transform;
-   
+   margin-bottom: 20px;
 }
 .item-info{
    background: #fff;
@@ -46,7 +46,6 @@
 }
 .item img{
     width: 280px;
-    margin: 10px;
     height: 290px;
     border-radius: 10px;
     
@@ -62,4 +61,119 @@
     font-weight: 500;
     font-style: bold;
     margin-bottom: 4px;
+}
+@media(max-width:1280px){
+    .item{
+        width: 220px;
+        font-size:14px ;
+        margin-bottom: 20px;
+        height: 420px;
+    }
+    .item-info{
+        margin: 10px;
+        width: 200px;
+    }
+    .item img{
+        width: 220px;
+        height: 300px;
+    }
+    .item-price-old{
+        font-size: 14px;
+    }
+}
+@media(max-width:1024px){
+      .item{
+       width: 220px;
+       font-size: 13px;
+       height: 350px;
+      }
+      .item img{
+        width: 220px;
+        margin: 0px;
+        height:250px;
+
+
+      }
+      .item-info{
+        width: 200px;
+        margin: 8px;
+      }
+      .item-price-old{
+        font-size: 13px;
+      }
+}
+@media(max-width:850px){
+    .item{
+        width: 170px;
+        font-size: 13px;
+       }
+       .item img{
+         width: 170px;
+         margin: 0px;
+ 
+       }
+       .item-info{
+         width: 155px;
+         margin: 8px;
+       }
+       .item-price-old{
+         font-size: 12px;
+       }
+}
+@media(max-width:800px){
+    .item{
+        width: 280px;
+        font-size:14px ;
+        margin-bottom: 20px;
+        height: 420px;
+    }
+    .item-info{
+        margin: 10px;
+        width: 260px;
+    }
+    .item img{
+        width: 280px;
+        height: 300px;
+    }
+    .item-price-old{
+        font-size: 14px;
+    }
+}
+@media(max-width:800px){
+    .item{
+        width: 240px;
+        font-size:14px ;
+        margin-bottom: 20px;
+        height: 420px;
+    }
+    .item-info{
+        margin: 10px;
+        width: 220px;
+    }
+    .item img{
+        width: 240px;
+        height: 300px;
+    }
+    .item-price-old{
+        font-size: 14px;
+    }
+}
+@media(max-width:500px){
+    .item{
+        width: 320px;
+        font-size:14px ;
+        margin-bottom: 20px;
+        height: 420px;
+    }
+    .item-info{
+        margin: 10px;
+        width: 300px;
+    }
+    .item img{
+        width: 320px;
+        height: 300px;
+    }
+    .item-price-old{
+        font-size: 14px;
+    }
 }
